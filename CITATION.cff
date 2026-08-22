@@ -1,0 +1,103 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite the PET-KLS Pipeline repository.
+  The accompanying scientific manuscript is listed under references.
+title: "PET-KLS Pipeline"
+type: software
+
+authors:
+  - family-names: "Monteiro"
+    given-names: "Sara"
+
+abstract: >-
+  PET-KLS is a Python pipeline for constructing subject-specific PET
+  similarity connectomes from regional voxel-wise standardized uptake
+  value ratio distributions. Regional probability density functions are
+  estimated using kernel density estimation, compared using symmetric
+  Kullback-Leibler divergence, and transformed into bounded similarity
+  weights.
+
+repository-code: "https://github.com/PET-KLS/PETKLS_pipeline"
+url: "https://github.com/PET-KLS/PETKLS_pipeline"
+
+identifiers:
+  - type: url
+    value: "https://github.com/PET-KLS/PETKLS_pipeline"
+    description: "PET-KLS Pipeline GitHub repository"
+
+license: "CC-BY-4.0"
+
+keywords:
+  - PET
+  - amyloid PET
+  - Kullback-Leibler divergence
+  - Kullback-Leibler similarity
+  - connectome
+  - brain networks
+  - neuroimaging
+  - Alzheimer's disease
+  - kernel density estimation
+
+references:
+  - type: article
+    title: >-
+      Amyloid PET Similarity Networks in Preclinical Alzheimer's Disease
+      Reveal Early Dynamic Topological Reorganization
+    authors:
+      - family-names: "Monteiro"
+        given-names: "Sara"
+      - family-names: "Arunachalam"
+        given-names: "Prithvi"
+      - family-names: "Pieperhoff"
+        given-names: "Leonard"
+      - family-names: "Tranfa"
+        given-names: "Mario"
+      - family-names: "Masserini"
+        given-names: "Federico"
+      - family-names: "Ritchie"
+        given-names: "Craig"
+      - family-names: "Boada"
+        given-names: "Mercè"
+      - family-names: "Marquié"
+        given-names: "Marta"
+      - family-names: "Vijverberg"
+        given-names: "Jort"
+      - family-names: "Vandenberghe"
+        given-names: "Rik"
+      - family-names: "Hanseeuw"
+        given-names: "Bernard J."
+      - family-names: "Visser"
+        given-names: "Pieter Jelle"
+      - family-names: "Frisoni"
+        given-names: "Giovanni B."
+      - family-names: "Stephens"
+        given-names: "Andrew"
+      - family-names: "Farrar"
+        given-names: "Gill"
+      - family-names: "Pardini"
+        given-names: "Matteo"
+      - family-names: "Roccatagliata"
+        given-names: "Luca"
+      - family-names: "Jessen"
+        given-names: "Frank"
+      - family-names: "Salvadó"
+        given-names: "Gemma"
+      - family-names: "Vállez-García"
+        given-names: "David"
+      - family-names: "Pontillo"
+        given-names: "Giuseppe"
+      - family-names: "Luckett"
+        given-names: "Emma S."
+      - family-names: "Cole"
+        given-names: "James H."
+      - family-names: "Barkhof"
+        given-names: "Frederik"
+      - family-names: "Wink"
+        given-names: "Alle Meije"
+      - family-names: "Collij"
+        given-names: "Lyduine E."
+      - family-names: "Lorenzini"
+        given-names: "Luigi"
+    year: 2026
+    notes: >-
+      Manuscript under review. Prepared on behalf of the AMYPAD consortium.
