@@ -12,7 +12,7 @@ PET-KLS represents every cortical region by an estimated SUVR probability densit
 
 ## Processing overview
 
-![PET-KLS processing flowchart](assets/petkls-processing-flowchart.svg)
+![PET-KLS processing flowchart](assets/petkls-processing-flowchart.png)
 
 The editable SVG and a publication-ready PNG are available in [`docs/`](docs/).
 
