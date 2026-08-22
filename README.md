@@ -184,7 +184,7 @@ Citation metadata are provided in [`CITATION.cff`](CITATION.cff). Until the acco
 
 > Monteiro S, et al. *Amyloid PET Similarity Networks in Preclinical Alzheimer's Disease Reveal Early Dynamic Topological Reorganization.* Manuscript under review, 2026.
 
-The approach was modified and adapted from individualized PET distribution-similarity work by Wang and colleagues:
+The approach was modified and adapted from individualized PET distribution-similarity work by Wang and colleagues, which focused on metabolic PET:
 
 > Wang M, Jiang J, Yan Z, et al. Individual brain metabolic connectome indicator based on Kullback-Leibler Divergence Similarity Estimation predicts progression from mild cognitive impairment to Alzheimer's dementia. *European Journal of Nuclear Medicine and Molecular Imaging.* 2020;47:2753-2764. [https://doi.org/10.1007/s00259-020-04814-x](https://doi.org/10.1007/s00259-020-04814-x)
 
