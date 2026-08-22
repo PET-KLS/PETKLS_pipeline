@@ -59,7 +59,7 @@ corresponding to 1,000 equally spaced SUVR points from 0 to 4.
 The sampled density is normalized over the finite grid using trapezoidal integration:
 
 ```math
-A_r=\operatorname{trapz}\!\left(\hat f_r(x_m),x_m\right),\qquad
+A_r=\mathrm{trapz}\!\left(\hat f_r(x_m),x_m\right),\qquad
 f_r(x_m)=\frac{\hat f_r(x_m)}{A_r}.
 ```
 
@@ -96,7 +96,7 @@ This is the base-2, numerically stabilized discrete form of the Jeffreys diverge
 The implemented similarity transform is
 
 ```math
-\operatorname{KLS}_{ij}=\frac{1}{1+J_2(p_i,p_j)}.
+\mathrm{KLS}_{ij}=\frac{1}{1+J_2(p_i,p_j)}.
 ```
 
 Consequently, `KLS_ij` is symmetric and lies in `(0,1]` for a valid finite pair: identical sampled distributions give `1`, while increasingly dissimilar distributions approach `0`. A non-finite divergence or a divergence above `10^4` is stored as similarity `0`.
@@ -106,7 +106,7 @@ Consequently, `KLS_ij` is symmetric and lies in `(0,1]` for a valid finite pair:
 For `R` regions, all unique pairs `i < j` are evaluated and mirrored:
 
 ```math
-W_{ij}=W_{ji}=\operatorname{KLS}_{ij}.
+W_{ij}=W_{ji}=\mathrm{KLS}_{ij}.
 ```
 
 The current output convention leaves the diagonal at zero rather than storing self-similarity. Missing, invalid, or skipped pairs also remain zero; zero must therefore be interpreted as the implementation's unavailable/degenerate-pair sentinel as well as the limiting low-similarity value.
